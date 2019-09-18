@@ -1,4 +1,10 @@
-class Birthday
-  def add_birthday(name, birthday)
-  end 
+class BirthdayList
+#
+  def initialize
+    @list = []
+  end
+
+  def add(name, birthday)
+    @list << {name: name, birthday: birthday}
+  end
 end
